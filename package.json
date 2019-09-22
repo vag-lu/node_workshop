@@ -1,0 +1,26 @@
+{
+  "name": "node_workshop",
+  "version": "1.0.0",
+  "description": "API node workshop",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=development && C:/Users/vagne/Documents/PROJECTS/node_workshop/node_modules/.bin/ts-node ./server/server.ts"
+  },
+  "author": "Vagner Lucion",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.9",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.17.0",
+    "@types/mongoose": "^5.5.12",
+    "@types/node": "^12.7.1",
+    "ts-node": "^8.3.0",
+    "type": "^1.0.3"
+  }
+}
